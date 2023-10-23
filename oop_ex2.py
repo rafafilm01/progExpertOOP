@@ -50,7 +50,7 @@ class Group:
     #explanation 
     # under new_group we launch another instance of class Group , this time with the combined members from 2 groups. Example of prompts 
     
-#creating objects based on the Group class and accessing them members 
+#creating objects based on the Group class and accessing the members 
 g1 =Group("a-team", ['raf', 'roger'])
 g2 =Group('b-team', ['brian', 'steven'])
 g3 =g1.merge(g2)
